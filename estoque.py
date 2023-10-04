@@ -46,16 +46,16 @@ while True:
     elif a == "2" :
 
         for i in range(len(nome_produto)):
-            print(f"Produto: {nome_produto}")
-            print(f"valor da venda: R${valor_venda}")
-            print(f"Quantidade: {valor_quantidade}")
+            print(f"Produto:           {nome_produto}")
+            print(f"valor da venda:   R${valor_venda}")
+            print(f"Quantidade:    {valor_quantidade}")
             print(f"primeiro imposto {valor_imposto1}")
-            print(f"Segundo imposto {valor_imposto2}")
+            print(f"Segundo imposto  {valor_imposto2}")
             print(f"Terceiro imposto {valor_imposto3}")
-            print(f"preco final {valor_venda}")
+            print(f"preco final         {valor_venda}")
 
     elif a == "3":
         print("encerando progama")
         break
-else:
+    else:
         print("ação não encontrada digite novamente")
